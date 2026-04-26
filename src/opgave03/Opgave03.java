@@ -6,6 +6,6 @@ public class Opgave03 {
     public static void main(String[] args) {
 
         SieveOfEratosthenes sieve = new SieveOfEratosthenes();
-        sieve.findPrimeNumbers(10000000);
+        sieve.findPrimeNumbers(10_000_000);
     }
 }

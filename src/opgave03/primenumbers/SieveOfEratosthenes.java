@@ -29,7 +29,7 @@ public class SieveOfEratosthenes {
         }
 
         // Print all prime numbers
-        for (int i = n - 100; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {
             if (prime[i])
                 System.out.print(i + " ");
         }
