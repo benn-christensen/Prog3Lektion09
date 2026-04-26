@@ -2,9 +2,9 @@
 
 I denne opgave skal I refaktorere eksisterende kode til at bruge **Factory Method**.
 
-Startkoden er bevidst lavet med en switch-baseret loesning, som **ikke** bruger Factory Method.
+Startkoden er bevidst lavet med en switch-baseret løsning, som **ikke** bruger Factory Method.
 
-## Domane
+## Domæne
 
 I udvikler en RPG character builder.
 
@@ -45,35 +45,16 @@ Det giver jer:
 
 ## Opgave
 
-Refaktorer loesningen til at bruge **Factory Method pattern**.
+Refaktorer løsningen til at bruge **Factory Method pattern**.
 
-### Krav
-
-- Brug engelske klassenavne og symbolnavne i kode.
-- Behold `enum CharacterType`.
-- Fjern switch-baseret oprettelse af konkrete vaaben fra klientkoden.
-- Indfoer Product-abstraktion (`Weapon`).
-- Indfoer Creator-abstraktion (f.eks. `CharacterClass` eller `CharacterCreator`) med en factory method som opretter `Weapon`.
-- Lav mindst to concrete creators (f.eks. `WarriorClass` og `WizardClass`) med tilhoerende konkrete produkter.
+- Fjern switch-baseret oprettelse af konkrete våben fra klientkoden.
+- Lav Creator-abstraktion (f.eks. `CharacterClass` eller `CharacterCreator`) med en factory method som opretter `Weapon`.
+- Lav mindst to concrete creators (f.eks. `WarriorClass` og `WizardClass`) med tilhørende konkrete produkter.
 - `Main` ma kun arbejde mod abstraktioner saa vidt muligt.
-
-### Minimum leverance
-
-- Stoette for mindst disse typer:
-  - `WARRIOR` -> `Sword`
-  - `WIZARD` -> `Staff`
-- Koerbart eksempel fra `Main` der udskriver mindst to oprettede karakterer.
 
 ### Bonus
 
-- Tilfoej `RANGER` med et passende vaaben uden at skulle aendre i eksisterende creator-klasser.
-- Tilfoej en kort test/validering der viser, at korrekt vaaben bliver oprettet per karaktertype.
-
-## Hvad vi kigger efter
-
-- Korrekt brug af Factory Method roller (Product, Creator, ConcreteProduct, ConcreteCreator)
-- Mindre kobling i klientkoden end i startloesningen
-- Laesbar og velstruktureret kode
+- Tilføj `RANGER` med et passende våben uden at skulle ændre i eksisterende creator-klasser.
 
 # Opgave 02 - Decorator (Coffee Shop)
 
