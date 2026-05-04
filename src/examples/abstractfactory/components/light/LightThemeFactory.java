@@ -1,4 +1,8 @@
-package examples.abstractfactory;
+package examples.abstractfactory.components.light;
+
+import examples.abstractfactory.Button;
+import examples.abstractfactory.Dialog;
+import examples.abstractfactory.UiFactory;
 
 public class LightThemeFactory implements UiFactory {
     @Override

@@ -1,4 +1,6 @@
-package examples.abstractfactory;
+package examples.abstractfactory.components.light;
+
+import examples.abstractfactory.Button;
 
 public class LightButton implements Button {
     @Override

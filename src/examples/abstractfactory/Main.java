@@ -1,5 +1,7 @@
 package examples.abstractfactory;
 
+import examples.abstractfactory.components.light.LightThemeFactory;
+
 public class Main {
     public static void main(String[] args) {
         String theme = args.length > 0 ? args[0] : "light";

@@ -1,4 +1,6 @@
-package examples.abstractfactory;
+package examples.abstractfactory.components.light;
+
+import examples.abstractfactory.Dialog;
 
 public class LightDialog implements Dialog {
     @Override
